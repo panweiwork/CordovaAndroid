@@ -32,6 +32,14 @@ android {
     }
 }
 
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            pom.packaging="aar"
+        }
+    }
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.1.1'
