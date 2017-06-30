@@ -8,21 +8,6 @@ install {
         pom {
             project {
                 packaging 'aar'
-                // Add your description here
-                name 'jbig library aar project for android'
-                url siteUrl
-                // Set your license
-                licenses {
-                    license {
-                        name 'GNU GENERAL PUBLIC LICENSE, Version 3'
-                        url 'http://www.gnu.org/licenses/gpl.txt'
-                    }
-                }
-                scm {
-                    connection gitUrl
-                    developerConnection gitUrl
-                    url siteUrl
-                }
             }
         }
     }
